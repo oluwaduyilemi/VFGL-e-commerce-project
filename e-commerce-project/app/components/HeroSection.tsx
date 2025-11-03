@@ -49,7 +49,7 @@ const HeroSection = () => {
           <ChevronDown className="rotate-[-90deg] text-[#8F8F8F] font-medium mr-1" size={14} />
         </div>
           <div className="flex items-center gap-2">   
-          <h3 className="text-[#8F8F8F] font-medium text-[12px]">Women's Shirt & Tops </h3>
+          <h3 className="text-[#8F8F8F] font-medium text-[12px]">Women Shirt & Tops </h3>
           <ChevronDown className="rotate-[-90deg] text-[#8F8F8F] font-medium mr-1" size={14} />
         </div>
          <div>   
