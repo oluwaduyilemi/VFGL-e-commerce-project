@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --font-clash-grotesk: 'Clash Grotesk';
+  --color-background: #ffffff;
+  --color-foreground: #292929;
+  --color-graycolor: #8F8F8F;
+  --color-primary: #666666;
+  --color-darkprimary: #141414; 
+
+  /* box color */
+   --color-secondary: #11171D;
+  --color-muted: #3A6A90; 
+  --color-accent: #EBEBEB;
+--color-darkgrey: #534029;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-clash-grotesk), inter;
+  
+}
