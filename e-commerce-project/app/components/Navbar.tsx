@@ -19,13 +19,14 @@ const Navbar: React.FC = () => {
   return (
     <header className="w-full">
       {/* Top Banner */}
-      <div className="bg-black text-[14px] text-white text-center font-medium py-2 flex items-center justify-center gap-2">
-        <p className="text-sm">
+      <div className="bg-black text-white text-center font-medium py-2 sm:flex sm:items-center sm:justify-center gap-2">
+        <p className="text-sm w-[250px] m-auto sm:w-fit">
           New season coming! Discount 10% for all products! Checkout Now!
-        </p>
-        <span className="bg-gray-800 text-white px-2 rounded-2xl text-xs">
+           <span className="bg-gray-800 text-white px-2 mx-2 rounded-2xl text-xs">
           20:40
-        </span>
+          </span>
+        </p>
+    
       </div>
 
       {/* Main Navbar */}

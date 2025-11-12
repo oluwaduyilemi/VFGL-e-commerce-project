@@ -39,7 +39,7 @@ const HeroSection = () => {
   return (
     <section className="container m-auto px-4 py-10 grid md:grid-cols-2 gap-34 border-b border-dashed">
       <div className="flex flex-col">
-        <div className="mb-5 flex  w-[600px]">
+        <div className="mb-5 flex sm:w-[600px]">
           <div className="flex items-center gap-2">   
           <h3 className="text-[#8F8F8F] font-medium text-[12px]">Homepage </h3>
           <ChevronDown className="rotate-[-90deg] text-[#8F8F8F] font-medium mr-1" size={14} />
